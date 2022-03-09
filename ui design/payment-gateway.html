@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="payment-gateway.css">
+  <link rel="stylesheet" href="daily-coffee-logo.css">
+
+</head>
+<body>
+  
+<div class="container">
+  <h1 class="header-component">Welcome to Daily Coffee</h1>
+ <div class="card center-component">
+  <div class="card-header">
+   <span class="daily-coffee-icon"> DAILY COFFEE PAY </span>      
+      <span class ="time-component"> 01:19 </span>                                                    
+  </div>
+  <div class="card-body ">
+    <h5 class="card-title">Payment Gateway</h5>
+    <p class="card-text">
+        <form>
+  <div class="form-group">
+    <label for="EnterCardNumber">Card Number</label>
+    <input type="text" class="form-control" id="cardnumber" aria-describedby="cardnumber" placeholder="Enter Card number">
+    <small id="emailHelp" class="form-text text-muted">Please enter your 16 digit card number</small>
+  </div>
+  <div class="form-group">
+    <label for="EnterCVVNumber">CVV Number</label>
+    <input type="cvvnumber" class="form-control" id="enteredCvvNumber" placeholder="Enter CVV">
+      <small id="cvvnumberHelp" class="form-text text-muted">Please enter your 3 digit CVV from back of your card </small>
+
+</div>
+  <div class="form-group">
+    <label for="EnterExpiryDate">Expiry Date</label>
+    <input type="expiryDate" class="form-control" id="enteredexpiryDate" placeholder=" Enter expiry date">
+
+</div>
+  <div class="payment-button">
+   <a href="#" class="btn btn-primary ">Pay Now</a>
+   </div>
+</form></p>
+  
+  </div>
+</div>
+</div> 
+</div>
+
+</body>
+</html>

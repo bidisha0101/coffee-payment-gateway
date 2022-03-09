@@ -1,0 +1,35 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+  font-family: AstheniaOne;
+  src: url(https://www.creativefabrica.com/product/asthenia/ref/116821/);
+}
+.header-component {
+  text-align: center;
+  padding-top: 30px;
+  font-family: AstheniaOne;
+}
+.center-component {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.time-component {
+  padding-left: 140px;
+}
+.payment-button {
+  padding-top: 30px;
+}
+.form-group {
+  padding-top: 10px !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 18rem;
+  }
+  .time-component {
+    padding-left: 60px;
+  }
+}
