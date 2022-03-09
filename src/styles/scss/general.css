@@ -1,0 +1,9 @@
+@font-face {
+  font-family: AstheniaOne;
+  src: url(https://www.creativefabrica.com/product/asthenia/ref/116821/);
+}
+.header-component {
+  text-align: center;
+  padding-top: 30px;
+  font-family: AstheniaOne;
+}

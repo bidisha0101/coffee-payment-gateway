@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: JuliusSansOne;
+  src: url(https://fonts.google.com/specimen/Julius+Sans+One#about);
+}
+@font-face {
+  font-family: AstheniaOne;
+  src: url(https://www.creativefabrica.com/product/asthenia/ref/116821/);
+}
+.container {
+  text-align: center;
+  padding-top: 40px;
+  font-family: JuliusSansOne;
+}
+.center-component {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-width {
+  width: 24rem;
+}
+
+.card-header {
+  font-family: JuliusSansOne;
+  .time-component {
+    padding-left: 160px;
+  }
+}
+
+.text-center {
+  padding-top: 30px !important;
+}
+.form-group {
+  padding-top: 10px !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 18rem;
+  }
+  .card-header {
+    font-family: JuliusSansOne;
+    .time-component {
+      padding-left: 60px;
+    }
+  }
+}
